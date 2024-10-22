@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arm Cart Sim</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="simulationCanvas" width="600" height="400"></canvas>
+
+    <script>
+        const canvas = document.getElementById('simulationCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let cartX = 300, cartY = 200;
+        let arm1Length = 100, arm2Length = 80;
+        let arm1Angle = Math.PI / 4;
+        let arm2Angle = Math.PI / 6; 
+
+        function drawCart() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = 'green';
+            ctx.fillRect(cartX - 50, cartY, 100, 20);
+
+            const arm1EndX = cartX + arm1Length * Math.cos(arm1Angle);
+            const arm1EndY = cartY - arm1Length * Math.sin(arm1Angle);
+
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 5;
+            ctx.beginPath();
+            ctx.moveTo(cartX, cartY);
+            ctx.lineTo(arm1EndX, arm1EndY);
+            ctx.stroke();
+
+            const arm2EndX = arm1EndX + arm2Length * Math.cos(arm2Angle);
+            const arm2EndY = arm1EndY - arm2Length * Math.sin(arm2Angle);
+
+            ctx.strokeStyle = 'blue';
+            ctx.lineWidth = 5;
+            ctx.beginPath();
+            ctx.moveTo(arm1EndX, arm1EndY);
+            ctx.lineTo(arm2EndX, arm2EndY);
+            ctx.stroke();
+        }
+
+        function animate() {
+            drawCart();
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+</body>
+</html>
