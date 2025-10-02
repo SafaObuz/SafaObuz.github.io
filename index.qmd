@@ -29,7 +29,7 @@ a:focus, a:hover {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  margin: 40px auto 0px auto;  /* Top Bottom Margins */
+  margin: 40px auto 0px auto;
   max-width: 800px;
 }
 
@@ -59,7 +59,7 @@ a:focus, a:hover {
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
-  margin-top: 0px;  /* Change from 5px */
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -149,7 +149,7 @@ h2 {
   }
   
   .profile-section {
-    display: flex;  /* Ensure flex on desktop */
+    display: flex;
     align-items: flex-start;
     gap: 40px;
   }
@@ -161,7 +161,7 @@ h2 {
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 15px;
-    margin: 20px auto 30px auto;
+    margin: 20px auto 15px auto;
   }
   
   .profile-image {
