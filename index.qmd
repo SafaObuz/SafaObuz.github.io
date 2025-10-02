@@ -143,20 +143,6 @@ h2 {
   margin: 0px auto 20px auto;
 }
 
-.profile-continuation {
-  max-width: 800px;
-  margin: 15px auto 20px auto;
-  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-@media (min-width: 769px) {
-  .profile-continuation {
-    display: none;
-  }
-}
-
 @media (max-width: 768px) {
   .profile-section {
     display: grid;
@@ -229,12 +215,6 @@ I am currently working in the sub-field of 3D reconstruction with an emphasis on
 
 [GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
 :::
-:::
-
-::: {.profile-continuation}
-I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
-
-[GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
 :::
 
 <h2>Projects</h2>
