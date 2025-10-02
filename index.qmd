@@ -179,12 +179,8 @@ h2 {
   }
   
   .profile-text p {
-    display: none;  /* Hide all paragraphs on mobile */
-  }
-  
-  .profile-continuation {
     grid-row: 2;
-    grid-column: 1 / -1;  /* Span both columns */
+    grid-column: 1 / -1;
   }
   
   .project-item {
