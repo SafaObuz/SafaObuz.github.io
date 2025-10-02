@@ -147,7 +147,6 @@ h2 {
   .profile-section {
     display: grid;
     grid-template-columns: 100px 1fr;
-    grid-template-rows: auto auto;
     gap: 15px;
     margin: 20px auto 0px auto;
   }
@@ -178,7 +177,7 @@ h2 {
     font-size: 16px;
   }
   
-  .profile-text p {
+  .profile-continuation {
     grid-row: 2;
     grid-column: 1 / -1;
   }
@@ -204,7 +203,9 @@ h2 {
 # Safa Obuz
 
 ## *Robots, Vision, and Learning*
+:::
 
+::: {.profile-continuation}
 I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
 
 I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
