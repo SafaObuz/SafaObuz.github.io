@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Safa Obuz"
+  navbar:
+    left: []
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    code-fold: true
+    html-math-method: katex
+    reference-location: margin
+    citation-location: margin
+    grid:
+      margin-width: 350px
+    date-format: "MMMM D, YYYY"
+    page-layout: article
+    anchor-sections: false  # This disables all anchor links

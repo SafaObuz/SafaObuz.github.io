@@ -1,0 +1,316 @@
+---
+title: ""
+page-layout: full
+toc: false
+---
+
+<style>
+body, td, th, tr, p, a {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 14px;
+}
+
+a {
+  color: #f09228;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+#quarto-header {
+  display: none !important;
+}
+
+.profile-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 40px auto 0px auto;  /* Top Bottom Margins */
+  max-width: 800px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+}
+
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
+
+.profile-text h1 {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 32px;
+  margin-top: 0;  /* Add this line */
+  margin-bottom: 0px;
+}
+
+.profile-text h2 {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 0px;  /* Change from 5px */
+  margin-bottom: 10px;
+}
+
+.profile-text p {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.profile-text {
+  font-size: 14px;
+}
+
+.project-item {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-image-container {
+  width: 160px;
+  height: 160px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.project-gif {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-image-container:hover .project-gif {
+  opacity: 1;
+}
+
+.project-text h3 {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.project-text p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project-text {
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 22px;
+  font-weight: normal;
+  max-width: 800px;
+  margin: 15px auto 15px auto;
+}
+
+.notes-description {
+  font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 800px;
+  margin: 0px auto 20px auto;
+}
+</style>
+
+::: {.profile-section}
+::: {.profile-image}
+![](media/profile.jpg)
+:::
+
+::: {.profile-text}
+# Safa Obuz
+
+## *Robots, Vision, and Learning*
+
+I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
+
+I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
+
+[GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/) 
+:::
+:::
+
+<h2>Projects</h2>
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/4d23.jpg){.project-still loading="eager"}
+![](media/4d23.gif){.project-gif loading="lazy"}
+:::
+
+::: {.project-text}
+<h3>4D2$^3$</h3>
+
+3D Gaussian Splatting with Scene Editing
+
+Hackathon submission for PennApps XXVI — University of Pennsylvania
+
+[DevPost](https://devpost.com/software/4d2) | [GitHub](https://github.com/SafaObuz/PennApps25)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/revolution.jpg){.project-still loading="eager"} 
+![](media/revolution.gif){.project-gif loading="lazy"}
+:::
+
+::: {.project-text}
+<h3><span style="color: #dc2626;">r</span>Evo<span style="color: #dc2626;">L</span>ution</h3>
+
+
+Explored how morphology affects locomotion by training custom agents in [NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html)
+
+Course project for CS 486 Reinforcement Learning — Drexel University
+
+[Paper](https://drive.google.com/file/d/1hLXRfp9C7qjovj-StbBOOa6sEHfBAbZd/view) | [GitHub](https://github.com/khristova21/revolution)
+
+Supplemental Materials: <u>Final Presentation</u> ([pptx](https://docs.google.com/presentation/d/12v27zgNH5sNeHd43kbbBKb1olVjcAzEf/view),
+                                            [pdf](https://drive.google.com/file/d/1v7bIZGjKJgPe8aHpcMhDQJbnIsN1YNKI/view)),
+                        [Pre-proposal](https://drive.google.com/file/d/1dMqXJVrA7nLkX09_knMJoQohPCSoQ6k5/view), 
+                        [Proposal](https://drive.google.com/file/d/1SljyrmtPDhYb6YtO7Qv-t-b9UjdggLg5/view), 
+                        [Report](https://drive.google.com/file/d/1xF-aFsaXKHTichqVeV799vquzZtE7PO8/view)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/dat.jpg){.project-still loading="eager"}
+:::
+
+::: {.project-text}
+<h3>DAT</h3>
+
+Implementation of <u>**D**</u>ual <u>**A**</u>ggregation <u>**T**</u>ransformer for Super-Resolution of Low Resolution Video 
+
+Course project for CS 435 Computational Photography — Drexel University
+ 
+[GitHub](https://github.com/SafaObuz/CS435FinalProject) | [Original Paper arXiv](https://arxiv.org/abs/2308.03364)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/wound.jpg){.project-still loading="eager"}
+:::
+
+::: {.project-text}
+<h3>Wound Watch</h3>
+
+3D reconstruction from simple photographs to track the progression of chronic wounds 
+
+Social Impact Award at DragonHacks 2025 — Drexel University
+
+[DevPost](https://devpost.com/software/deepcare-ai) | [GitHub](https://github.com/arijitchakma79/WoundWatch)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/qubikel.jpg){.project-still loading="eager"}
+:::
+
+::: {.project-text}
+<h3>QuBikel</h3>
+
+Quantum computing used for simulation of bike sharing capacity
+
+Beginner Quantum Computing Award at BitCamp 2025 — University of Maryland
+
+[DevPost](https://devpost.com/software/qubikel) | [GitHub](https://github.com/Yannaner/BitCamp-2025)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/visual-ed.jpg){.project-still loading="eager"}
+:::
+
+::: {.project-text}
+<h3>Visual-Ed</h3>
+
+Smart conversation suggestions for those with mobility disability 
+
+Entertainment and Interaction Award at Dragon Hacks 2024 — Drexel University
+ 
+[DevPost](https://devpost.com/software/visual-ed) | [GitHub](https://github.com/SafaObuz/Visual-Ed/)
+:::
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/scout.jpg){.project-still loading="eager"}
+![](media/scout.gif){.project-gif loading="lazy"}
+:::
+
+::: {.project-text}
+<h3>Scout</h3>
+
+Smart conversation suggestions for those with mobility disability 
+
+Hackathon submission for HoyaHacks 2024 — Georgetown University
+ 
+[DevPost](https://devpost.com/software/scout-campus-security) | [GitHub](https://github.com/arijitchakma79/HoyaHacks24)
+:::
+:::
+
+<h2>Publication</h2>
+
+::: {.notes-description}
+More papers coming soon
+:::
+
+::: {.project-item}
+::: {.project-image-container}
+![](media/soft.jpg){.project-still loading="eager"}
+:::
+
+::: {.project-text}
+<h3>Soluble Polymer Pneumatic Networks and a Single-Pour System for Improved Accessibility and Durability of Soft Robotic Actuators</h3>
+
+Single-mold method of fabricating soft robotic actuators
+
+**[SoRo 2021](https://www.liebertpub.com/doi/abs/10.1089/soro.2019.0133)** | [Paper](https://istem.illinois.edu/PDF/soro.2019.0133.pdf)
+:::
+:::
+
+
+
+<h2>Notes</h2>
+
+::: {.notes-description}
+I'm an avid note taker. I aim for my [notes](notes/index.html) page to be a public collection of refined course notes. Similarly, I aim for my [papers](papers/index.html) page to be a collection of paper summaries. This effort is currently a work in progress. 
+
+This section is a play-on-words of the tagline for my site, *Robots, Vision, and Learning*. Here, *learning* both literally refers to learning and studies (hence the learning resources), but also *machine* learning :)
+:::

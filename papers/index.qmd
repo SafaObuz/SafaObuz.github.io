@@ -1,0 +1,5 @@
+---
+title: "Research Notes"
+---
+
+This page will become the literature notes and summaries from papers I'm reading and have read. I am currently finaling the notes-to-publish pipeline
