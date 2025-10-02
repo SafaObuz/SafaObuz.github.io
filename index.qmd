@@ -5,6 +5,7 @@ toc: false
 ---
 
 <style>
+
 body, td, th, tr, p, a {
   font-family: 'et-book', 'Palatino', 'Palatino Linotype', Georgia, serif;
   font-size: 14px;
@@ -144,45 +145,51 @@ h2 {
 
 @media (max-width: 768px) {
   .profile-section {
-    flex-wrap: wrap;
     gap: 20px;
     margin: 20px auto 0px auto;
+    display: block;  /* Change from flex to block on mobile */
   }
   
   .profile-image {
-    width: 100px;  /* Much smaller */
+    float: left;  /* Float image left */
+    width: 100px;
     height: 100px;
+    margin-right: 15px;
+    margin-bottom: 10px;
   }
   
   .profile-image img {
     width: 100px;
     height: 100px;
   }
-
-  .profile-text {
-    flex: 1 1 100%;
-  }
-
   
   .profile-text h1 {
-    font-size: 28px;  /* Keep text readable */
+    font-size: 28px;
   }
   
   .profile-text h2 {
     font-size: 16px;
+    margin-bottom: 15px;
   }
   
-  /* Don't shrink body text - keep it readable */
+  .profile-text p:first-of-type {
+    /* First paragraph flows around floated image */
+  }
+  
+  .profile-text p:nth-of-type(2) {
+    clear: both;  /* Second paragraph clears float and spans full width */
+  }
   
   .project-item {
-    gap: 15px;  /* Keep horizontal, just tighter gap */
+    gap: 15px;
   }
   
   .project-image-container {
-    width: 120px;  /* Smaller images = more room for text */
+    width: 120px;
     height: 120px;
   }
 }
+
 </style>
 
 ::: {.profile-section}
