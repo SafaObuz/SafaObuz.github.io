@@ -161,7 +161,7 @@ h2 {
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 15px;
-    margin: 20px auto 0px auto;
+    margin: 20px auto 30px auto;
   }
   
   .profile-image {
