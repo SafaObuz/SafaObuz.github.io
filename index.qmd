@@ -143,6 +143,18 @@ h2 {
   margin: 0px auto 20px auto;
 }
 
+@media (min-width: 769px) {
+  .profile-continuation {
+    display: none !important;
+  }
+  
+  .profile-section {
+    display: flex;  /* Ensure flex on desktop */
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+
 @media (max-width: 768px) {
   .profile-section {
     display: grid;
@@ -159,8 +171,8 @@ h2 {
   }
   
   .profile-image img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
   
   .profile-text {
@@ -203,6 +215,13 @@ h2 {
 # Safa Obuz
 
 ## *Robots, Vision, and Learning*
+
+I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
+
+I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
+
+[GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
+:::
 :::
 
 ::: {.profile-continuation}
@@ -211,7 +230,6 @@ I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https:
 I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
 
 [GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
-:::
 :::
 
 <h2>Projects</h2>
