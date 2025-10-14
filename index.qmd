@@ -221,7 +221,7 @@ h2 {
 
 ## *Robots, Vision, and Learning*
 
-I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
+I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) advised by [Dr. Feng Liu](https://liufeng2915.github.io/) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
 
 I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
 
