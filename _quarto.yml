@@ -2,6 +2,8 @@ project:
   type: website
   output-dir: _site
 
+bibliography: references.bib
+
 website:
   title: "Safa Obuz"
   navbar:
