@@ -8,7 +8,7 @@ publish: true
 
 ## Introduction
 
-This note tests all major features. Here's a citation to a paper [@mildenhall2020nerf].
+This note tests all major features. Here's a citation to a paper [@wangDUSt3RGeometric3D2024].
 
 ### Wiki Links
 
@@ -23,7 +23,7 @@ See also: [An Introduction to Convolutional Neural Networks](OShea-IntroductionC
 > This becomes a sidenote in Tufte style.
 
 > [!margin] Margin Ref.
-> Here's a citation to a paper in the side [@mildenhall2020nerf].
+> Here's a citation to a paper in the side [@wangDUSt3RGeometric3D2024].
 
 ### Images
 
