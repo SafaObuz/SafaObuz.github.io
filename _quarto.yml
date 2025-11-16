@@ -10,7 +10,7 @@ website:
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: [tufte.css, styles.css]
     toc: false
     code-fold: true
     html-math-method: katex
@@ -21,3 +21,4 @@ format:
     date-format: "MMMM D, YYYY"
     page-layout: article
     anchor-sections: false  # This disables all anchor links
+    mainfont: "et-book, Palatino, Georgia, serif"

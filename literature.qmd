@@ -1,11 +1,92 @@
 ---
 title: "Literature Notes"
 page-layout: full
-listing:
-  contents: literature
-  type: default
-  sort: "date desc"
-  fields: [title, date, author]
 ---
 
-My paper summaries and literature reviews.
+## Recently Updated
+
+::: {#recent-notes}
+```{=html}
+<div id="recent-listing"></div>
+```
+:::
+```{r}
+#| echo: false
+#| output: asis
+
+library(yaml)
+
+# Get all literature notes
+files <- list.files("literature", pattern = "\\.md$", full.names = TRUE)
+
+# Parse frontmatter and get metadata
+notes <- lapply(files, function(f) {
+  lines <- readLines(f, warn = FALSE)
+  yaml_end <- which(lines == "---")[2]
+  if (is.na(yaml_end)) return(NULL)
+  
+  yaml_text <- paste(lines[2:(yaml_end-1)], collapse = "\n")
+  meta <- tryCatch(yaml.load(yaml_text), error = function(e) NULL)
+  
+  if (is.null(meta) || !isTRUE(meta$publish)) return(NULL)
+  
+  list(
+    title = meta$title,
+    date = meta$date,
+    categories = meta$categories,
+    file = basename(f)
+  )
+})
+
+notes <- Filter(Negate(is.null), notes)
+
+# Sort by date
+notes <- notes[order(sapply(notes, function(x) x$date), decreasing = TRUE)]
+
+# Show top 3
+cat("### Recently Updated\n\n")
+for (i in 1:min(3, length(notes))) {
+  n <- notes[[i]]
+  cat(sprintf("- [%s](%s)\n", n$title, gsub("\\.md$", ".html", n$file)))
+}
+
+# Group by category
+categories <- unique(unlist(lapply(notes, function(x) x$categories)))
+categories <- setdiff(categories, c("literature-note", "published"))
+
+for (cat_name in categories) {
+  cat_notes <- Filter(function(x) cat_name %in% x$categories, notes)
+  if (length(cat_notes) == 0) next
+  
+  cat(sprintf("\n## %s Papers\n\n", tools::toTitleCase(cat_name)))
+  
+  for (i in 1:min(10, length(cat_notes))) {
+    n <- cat_notes[[i]]
+    cat(sprintf("- [%s](%s)\n", n$title, gsub("\\.md$", ".html", n$file)))
+  }
+  
+  if (length(cat_notes) > 10) {
+    cat(sprintf("\n[See all %d %s papers →](%s-papers.html)\n", 
+                length(cat_notes), cat_name, cat_name))
+  }
+}
+```
+
+## All Papers
+```{=html}
+<div class="all-papers">
+```
+```{r}
+#| echo: false
+#| output: asis
+
+for (n in notes) {
+  cat(sprintf("- [%s](%s) (%s)\n", 
+              n$title, 
+              gsub("\\.md$", ".html", n$file),
+              n$date))
+}
+```
+```{=html}
+</div>
+```
