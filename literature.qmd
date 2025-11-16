@@ -4,12 +4,6 @@ page-layout: full
 ---
 
 ## Recently Updated
-
-::: {#recent-notes}
-```{=html}
-<div id="recent-listing"></div>
-```
-:::
 ```{r}
 #| echo: false
 #| output: asis
@@ -32,61 +26,64 @@ notes <- lapply(files, function(f) {
   
   list(
     title = meta$title,
-    date = meta$date,
-    categories = meta$categories,
+    date = as.Date(meta$date),
+    categories = if(is.null(meta$categories)) c() else meta$categories,
     file = basename(f)
   )
 })
 
 notes <- Filter(Negate(is.null), notes)
 
-# Sort by date
+# Sort by date (newest first)
 notes <- notes[order(sapply(notes, function(x) x$date), decreasing = TRUE)]
 
 # Show top 3
-cat("### Recently Updated\n\n")
 for (i in 1:min(3, length(notes))) {
   n <- notes[[i]]
-  cat(sprintf("- [%s](%s)\n", n$title, gsub("\\.md$", ".html", n$file)))
+  link <- paste0("literature/", gsub("\\.md$", ".html", n$file))
+  cat(sprintf("- [%s](%s) - %s\n", n$title, link, format(n$date, "%B %d, %Y")))
 }
+```
+
+## By Category
+```{r}
+#| echo: false
+#| output: asis
 
 # Group by category
-categories <- unique(unlist(lapply(notes, function(x) x$categories)))
-categories <- setdiff(categories, c("literature-note", "published"))
+all_categories <- unique(unlist(lapply(notes, function(x) x$categories)))
+# Remove meta categories
+categories <- setdiff(all_categories, c("literature-note", "published", "test"))
 
 for (cat_name in categories) {
   cat_notes <- Filter(function(x) cat_name %in% x$categories, notes)
   if (length(cat_notes) == 0) next
   
-  cat(sprintf("\n## %s Papers\n\n", tools::toTitleCase(cat_name)))
+  cat(sprintf("\n### %s\n\n", tools::toTitleCase(cat_name)))
   
   for (i in 1:min(10, length(cat_notes))) {
     n <- cat_notes[[i]]
-    cat(sprintf("- [%s](%s)\n", n$title, gsub("\\.md$", ".html", n$file)))
+    link <- paste0("literature/", gsub("\\.md$", ".html", n$file))
+    cat(sprintf("- [%s](%s)\n", n$title, link))
   }
   
   if (length(cat_notes) > 10) {
-    cat(sprintf("\n[See all %d %s papers →](%s-papers.html)\n", 
+    cat(sprintf("\n[See all %d %s papers →](literature-%s.html)\n\n", 
                 length(cat_notes), cat_name, cat_name))
   }
 }
 ```
 
 ## All Papers
-```{=html}
-<div class="all-papers">
-```
 ```{r}
 #| echo: false
 #| output: asis
 
 for (n in notes) {
+  link <- paste0("literature/", gsub("\\.md$", ".html", n$file))
   cat(sprintf("- [%s](%s) (%s)\n", 
               n$title, 
-              gsub("\\.md$", ".html", n$file),
-              n$date))
+              link,
+              format(n$date, "%Y-%m-%d")))
 }
-```
-```{=html}
-</div>
 ```

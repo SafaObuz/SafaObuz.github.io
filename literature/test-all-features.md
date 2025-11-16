@@ -4,7 +4,6 @@ author: "Test Author"
 date: 2025-11-16
 categories: [test, graphics, vision]
 publish: true
-bibliography: references.bib
 ---
 
 ## Introduction

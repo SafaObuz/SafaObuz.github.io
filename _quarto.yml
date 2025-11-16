@@ -22,5 +22,4 @@ format:
       margin-width: 350px
     date-format: "MMMM D, YYYY"
     page-layout: article
-    anchor-sections: false  # This disables all anchor links
-    mainfont: "et-book, Palatino, Georgia, serif"
+    anchor-sections: false
