@@ -4,12 +4,10 @@ title: |
 author: |
   Gilad Baruch, Zhuoyuan Chen, Afshin Dehghan, Tal Dimry, Yuri Feigin, Peter Fu, Thomas Gebauer, Brandon Joffe, Daniel Kurz, Arik Schwartz, Elad Shulman
 date: 2022-01-12
+categories: vision
 doi: 10.48550/arXiv.2111.08897
 publish: true
 ---
-# ARKitScenes: A Diverse Real-World Dataset For 3D Indoor Scene Understanding Using Mobile RGB-D Data
-
-Gilad Baruch, Zhuoyuan Chen, Afshin Dehghan, Tal Dimry, Yuri Feigin, Peter Fu, Thomas Gebauer, Brandon Joffe, Daniel Kurz, Arik Schwartz, Elad Shulman (2022)
 [View Paper](https://doi.org/10.48550/arXiv.2111.08897)
 
 
@@ -28,7 +26,6 @@ This project is related to [Scan2CAD: Learning CAD Model Alignment in RGB-D Scan
 
 > [!Warning]
 > This is a warning block, let's see how Pandoc converts it
-
 
 > [!margin]
 > This becomes a side note in our workflow

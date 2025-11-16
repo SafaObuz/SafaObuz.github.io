@@ -3,12 +3,10 @@ title: An Introduction to Convolutional Neural Networks
 author: Keiron O'Shea, Ryan Nash
 date: 2015-12-02
 doi: 10.48550/arXiv.1511.08458
+categories: test, machine learning
 publish: true
 ---
-# An Introduction to Convolutional Neural Networks
-Keiron O'Shea, Ryan Nash (2015)
 [View Paper](https://doi.org/10.48550/arXiv.1511.08458)
-
 
 CNNs are comprised of three types of layers
 
