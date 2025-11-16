@@ -1,5 +1,1 @@
----
-title: "Notes"
----
-
-I aim to populate my notes here over time. WIP.
+<p>I aim to populate my notes here over time. WIP.</p>

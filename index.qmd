@@ -1,9 +1,3 @@
----
-title: ""
-page-layout: full
-toc: false
----
-
 <style>
 
 body, td, th, tr, p, a {
