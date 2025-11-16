@@ -1,0 +1,11 @@
+---
+title: "Ideas & Synthesis"
+page-layout: full
+listing:
+  contents: ideas
+  type: default
+  sort: "date desc"
+  fields: [title, date]
+---
+
+Original writing, synthesis notes, and explorations.

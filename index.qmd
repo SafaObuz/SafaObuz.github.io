@@ -386,7 +386,7 @@ Single-mold method of fabricating soft robotic actuators
 <h2>Notes</h2>
 
 ::: {.notes-description}
-I'm an avid note taker. I aim for my [notes](notes/index.html) page to be a public collection of refined course notes. Similarly, I aim for my [papers](papers/index.html) page to be a collection of paper summaries. This effort is currently a work in progress. 
+I'm an avid note taker. I aim for my [notes](notes/index.html) page to be a public collection of refined course notes. Similarly, I aim for my [literature notes](literature.html) page to be a collection of paper summaries. Testing [lecture notes](lecture.html) and [ideas](ideas.html). 
 
 This section is a play-on-words of the tagline for my site, *Robots, Vision, and Learning*. Here, *learning* both literally refers to learning and studies (hence the learning resources), but also *machine* learning :)
 :::

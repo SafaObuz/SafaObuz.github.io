@@ -1,0 +1,11 @@
+---
+title: "Lecture Notes"
+page-layout: full
+listing:
+  contents: lectures
+  type: default
+  sort: "date desc"
+  fields: [title, date, author]
+---
+
+Notes from YouTube lectures and courses.

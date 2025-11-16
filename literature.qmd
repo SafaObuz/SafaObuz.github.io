@@ -1,0 +1,11 @@
+---
+title: "Literature Notes"
+page-layout: full
+listing:
+  contents: literature
+  type: default
+  sort: "date desc"
+  fields: [title, date, author]
+---
+
+My paper summaries and literature reviews.
