@@ -16,5 +16,5 @@ CNNs are comprised of three types of layers
 **My Note:** This is my comment
 
  Image - [Page 4](zotero://open-pdf/library/items/USHJTLFB?page=4&annotation=QXUAPTBY)
-![](attachments/OShea-IntroductionConvolutionalNeural-2015/fig-OShea-IntroductionConvolutionalNeural-2015-4-x157-y303.png)
+![](../attachments/OShea-IntroductionConvolutionalNeural-2015/fig-OShea-IntroductionConvolutionalNeural-2015-4-x157-y303.png)
 
