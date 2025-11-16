@@ -1,9 +1,3 @@
----
-title: ""
-page-layout: full
-toc: false
----
-
 <style>
 
 body, td, th, tr, p, a {
@@ -210,183 +204,204 @@ h2 {
 }
 
 </style>
-
-::: {.profile-section}
-::: {.profile-image}
-![](media/profile.jpg)
-:::
-
-::: {.profile-text}
-# Safa Obuz
-
-## *Robots, Vision, and Learning*
-
-I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) advised by [Dr. Feng Liu](https://liufeng2915.github.io/) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
-
-I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
-
-[GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
-:::
-:::
-
-::: {.profile-continuation}
-I'm a Computer Vision Research Assistant at the [Visual Intelligence Lab](https://github.com/VILab-Drexel) advised by [Dr. Feng Liu](https://liufeng2915.github.io/) at Drexel University. I'm largely interested in robotics, computer vision, mathematics, computer graphics, and simulation.
-
-I am currently working in the sub-field of 3D reconstruction with an emphasis on dataset and model viability for downstream use cases (robotics).
-
-[GitHub](https://github.com/SafaObuz) | [LinkedIn](https://www.linkedin.com/in/safaobuz/)
-:::
-
-<h2>Projects</h2>
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/4d23.jpg){.project-still loading="eager"}
-![](media/4d23.gif){.project-gif loading="lazy"}
-:::
-
-::: {.project-text}
-<h3>4D2$^3$</h3>
-
-3D Gaussian Splatting with Scene Editing
-
-Hackathon submission for PennApps XXVI — University of Pennsylvania
-
-[DevPost](https://devpost.com/software/4d2) | [GitHub](https://github.com/SafaObuz/PennApps25)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/revolution.jpg){.project-still loading="eager"} 
-![](media/revolution.gif){.project-gif loading="lazy"}
-:::
-
-::: {.project-text}
-<h3><span style="color: #dc2626;">r</span>Evo<span style="color: #dc2626;">L</span>ution</h3>
-
-
-Explored how morphology affects locomotion by training custom agents in [NVIDIA Isaac Lab](https://isaac-sim.github.io/IsaacLab/main/index.html)
-
-Course project for CS 486 Reinforcement Learning — Drexel University
-
-[Paper](https://drive.google.com/file/d/1hLXRfp9C7qjovj-StbBOOa6sEHfBAbZd/view) | [GitHub](https://github.com/khristova21/revolution)
-
-Supplemental Materials: <u>Final Presentation</u> ([pptx](https://docs.google.com/presentation/d/12v27zgNH5sNeHd43kbbBKb1olVjcAzEf/view),
-                                            [pdf](https://drive.google.com/file/d/1v7bIZGjKJgPe8aHpcMhDQJbnIsN1YNKI/view)),
-                        [Pre-proposal](https://drive.google.com/file/d/1dMqXJVrA7nLkX09_knMJoQohPCSoQ6k5/view), 
-                        [Proposal](https://drive.google.com/file/d/1SljyrmtPDhYb6YtO7Qv-t-b9UjdggLg5/view), 
-                        [Report](https://drive.google.com/file/d/1xF-aFsaXKHTichqVeV799vquzZtE7PO8/view)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/dat.jpg){.project-still loading="eager"}
-:::
-
-::: {.project-text}
-<h3>DAT</h3>
-
-Implementation of <u>**D**</u>ual <u>**A**</u>ggregation <u>**T**</u>ransformer for Super-Resolution of Low Resolution Video 
-
-Course project for CS 435 Computational Photography — Drexel University
- 
-[GitHub](https://github.com/SafaObuz/CS435FinalProject) | [Original Paper arXiv](https://arxiv.org/abs/2308.03364)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/wound.jpg){.project-still loading="eager"}
-:::
-
-::: {.project-text}
-<h3>Wound Watch</h3>
-
-3D reconstruction from simple photographs to track the progression of chronic wounds 
-
-Social Impact Award at DragonHacks 2025 — Drexel University
-
-[DevPost](https://devpost.com/software/deepcare-ai) | [GitHub](https://github.com/arijitchakma79/WoundWatch)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/qubikel.jpg){.project-still loading="eager"}
-:::
-
-::: {.project-text}
-<h3>QuBikel</h3>
-
-Quantum computing used for simulation of bike sharing capacity
-
-Beginner Quantum Computing Award at BitCamp 2025 — University of Maryland
-
-[DevPost](https://devpost.com/software/qubikel) | [GitHub](https://github.com/Yannaner/BitCamp-2025)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/visual-ed.jpg){.project-still loading="eager"}
-:::
-
-::: {.project-text}
-<h3>Visual-Ed</h3>
-
-Smart conversation suggestions for those with mobility disability 
-
-Entertainment and Interaction Award at Dragon Hacks 2024 — Drexel University
- 
-[DevPost](https://devpost.com/software/visual-ed) | [GitHub](https://github.com/SafaObuz/Visual-Ed/)
-:::
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/scout.jpg){.project-still loading="eager"}
-![](media/scout.gif){.project-gif loading="lazy"}
-:::
-
-::: {.project-text}
-<h3>Scout</h3>
-
-Smart conversation suggestions for those with mobility disability 
-
-Hackathon submission for HoyaHacks 2024 — Georgetown University
- 
-[DevPost](https://devpost.com/software/scout-campus-security) | [GitHub](https://github.com/arijitchakma79/HoyaHacks24)
-:::
-:::
-
-<h2>Publication</h2>
-
-::: {.notes-description}
-More papers coming soon
-:::
-
-::: {.project-item}
-::: {.project-image-container}
-![](media/soft.jpg){.project-still loading="eager"}
-:::
-
-::: {.project-text}
-<h3>Soluble Polymer Pneumatic Networks and a Single-Pour System for Improved Accessibility and Durability of Soft Robotic Actuators</h3>
-
-Single-mold method of fabricating soft robotic actuators
-
-**[SoRo 2021](https://www.liebertpub.com/doi/abs/10.1089/soro.2019.0133)** | [Paper](https://istem.illinois.edu/PDF/soro.2019.0133.pdf)
-:::
-:::
-
-
-
-<h2>Notes</h2>
-
-::: {.notes-description}
-I'm an avid note taker. I aim for my [notes](notes/index.html) page to be a public collection of refined course notes. Similarly, I aim for my [literature notes](literature.html) page to be a collection of paper summaries. Testing [lecture notes](lecture.html) and [ideas](ideas.html). 
-
-This section is a play-on-words of the tagline for my site, *Robots, Vision, and Learning*. Here, *learning* both literally refers to learning and studies (hence the learning resources), but also *machine* learning :)
-:::
+<div class="profile-section">
+<div class="profile-image">
+<p><img src="media/profile.jpg" /></p>
+</div>
+<section id="safa-obuz" class="profile-text">
+<h1>Safa Obuz</h1>
+<h2 id="robots-vision-and-learning"><em>Robots, Vision, and
+Learning</em></h2>
+<p>I’m a Computer Vision Research Assistant at the <a
+href="https://github.com/VILab-Drexel">Visual Intelligence Lab</a>
+advised by <a href="https://liufeng2915.github.io/">Dr. Feng Liu</a> at
+Drexel University. I’m largely interested in robotics, computer vision,
+mathematics, computer graphics, and simulation.</p>
+<p>I am currently working in the sub-field of 3D reconstruction with an
+emphasis on dataset and model viability for downstream use cases
+(robotics).</p>
+<p><a href="https://github.com/SafaObuz">GitHub</a> | <a
+href="https://www.linkedin.com/in/safaobuz/">LinkedIn</a></p>
+</section>
+</div>
+<div class="profile-continuation">
+<p>I’m a Computer Vision Research Assistant at the <a
+href="https://github.com/VILab-Drexel">Visual Intelligence Lab</a>
+advised by <a href="https://liufeng2915.github.io/">Dr. Feng Liu</a> at
+Drexel University. I’m largely interested in robotics, computer vision,
+mathematics, computer graphics, and simulation.</p>
+<p>I am currently working in the sub-field of 3D reconstruction with an
+emphasis on dataset and model viability for downstream use cases
+(robotics).</p>
+<p><a href="https://github.com/SafaObuz">GitHub</a> | <a
+href="https://www.linkedin.com/in/safaobuz/">LinkedIn</a></p>
+</div>
+<h2>
+Projects
+</h2>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/4d23.jpg" class="project-still" loading="eager" />
+<img src="media/4d23.gif" class="project-gif" loading="lazy" /></p>
+</div>
+<div class="project-text">
+<h3>
+4D2<span class="math inline"><sup>3</sup></span>
+</h3>
+<p>3D Gaussian Splatting with Scene Editing</p>
+<p>Hackathon submission for PennApps XXVI — University of
+Pennsylvania</p>
+<p><a href="https://devpost.com/software/4d2">DevPost</a> | <a
+href="https://github.com/SafaObuz/PennApps25">GitHub</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/revolution.jpg" class="project-still"
+loading="eager" /> <img src="media/revolution.gif" class="project-gif"
+loading="lazy" /></p>
+</div>
+<div class="project-text">
+<h3>
+<span style="color: #dc2626;">r</span>Evo<span
+style="color: #dc2626;">L</span>ution
+</h3>
+<p>Explored how morphology affects locomotion by training custom agents
+in <a href="https://isaac-sim.github.io/IsaacLab/main/index.html">NVIDIA
+Isaac Lab</a></p>
+<p>Course project for CS 486 Reinforcement Learning — Drexel
+University</p>
+<p><a
+href="https://drive.google.com/file/d/1hLXRfp9C7qjovj-StbBOOa6sEHfBAbZd/view">Paper</a>
+| <a href="https://github.com/khristova21/revolution">GitHub</a></p>
+<p>Supplemental Materials: <u>Final Presentation</u> (<a
+href="https://docs.google.com/presentation/d/12v27zgNH5sNeHd43kbbBKb1olVjcAzEf/view">pptx</a>,
+<a
+href="https://drive.google.com/file/d/1v7bIZGjKJgPe8aHpcMhDQJbnIsN1YNKI/view">pdf</a>),
+<a
+href="https://drive.google.com/file/d/1dMqXJVrA7nLkX09_knMJoQohPCSoQ6k5/view">Pre-proposal</a>,
+<a
+href="https://drive.google.com/file/d/1SljyrmtPDhYb6YtO7Qv-t-b9UjdggLg5/view">Proposal</a>,
+<a
+href="https://drive.google.com/file/d/1xF-aFsaXKHTichqVeV799vquzZtE7PO8/view">Report</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/dat.jpg" class="project-still" loading="eager" /></p>
+</div>
+<div class="project-text">
+<h3>
+DAT
+</h3>
+<p>Implementation of <u><strong>D</strong></u>ual
+<u><strong>A</strong></u>ggregation <u><strong>T</strong></u>ransformer
+for Super-Resolution of Low Resolution Video</p>
+<p>Course project for CS 435 Computational Photography — Drexel
+University</p>
+<p><a href="https://github.com/SafaObuz/CS435FinalProject">GitHub</a> |
+<a href="https://arxiv.org/abs/2308.03364">Original Paper arXiv</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/wound.jpg" class="project-still"
+loading="eager" /></p>
+</div>
+<div class="project-text">
+<h3>
+Wound Watch
+</h3>
+<p>3D reconstruction from simple photographs to track the progression of
+chronic wounds</p>
+<p>Social Impact Award at DragonHacks 2025 — Drexel University</p>
+<p><a href="https://devpost.com/software/deepcare-ai">DevPost</a> | <a
+href="https://github.com/arijitchakma79/WoundWatch">GitHub</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/qubikel.jpg" class="project-still"
+loading="eager" /></p>
+</div>
+<div class="project-text">
+<h3>
+QuBikel
+</h3>
+<p>Quantum computing used for simulation of bike sharing capacity</p>
+<p>Beginner Quantum Computing Award at BitCamp 2025 — University of
+Maryland</p>
+<p><a href="https://devpost.com/software/qubikel">DevPost</a> | <a
+href="https://github.com/Yannaner/BitCamp-2025">GitHub</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/visual-ed.jpg" class="project-still"
+loading="eager" /></p>
+</div>
+<div class="project-text">
+<h3>
+Visual-Ed
+</h3>
+<p>Smart conversation suggestions for those with mobility disability</p>
+<p>Entertainment and Interaction Award at Dragon Hacks 2024 — Drexel
+University</p>
+<p><a href="https://devpost.com/software/visual-ed">DevPost</a> | <a
+href="https://github.com/SafaObuz/Visual-Ed/">GitHub</a></p>
+</div>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/scout.jpg" class="project-still" loading="eager" />
+<img src="media/scout.gif" class="project-gif" loading="lazy" /></p>
+</div>
+<div class="project-text">
+<h3>
+Scout
+</h3>
+<p>Smart conversation suggestions for those with mobility disability</p>
+<p>Hackathon submission for HoyaHacks 2024 — Georgetown University</p>
+<p><a
+href="https://devpost.com/software/scout-campus-security">DevPost</a> |
+<a href="https://github.com/arijitchakma79/HoyaHacks24">GitHub</a></p>
+</div>
+</div>
+<h2>
+Publication
+</h2>
+<div class="notes-description">
+<p>More papers coming soon</p>
+</div>
+<div class="project-item">
+<div class="project-image-container">
+<p><img src="media/soft.jpg" class="project-still"
+loading="eager" /></p>
+</div>
+<div class="project-text">
+<h3>
+Soluble Polymer Pneumatic Networks and a Single-Pour System for Improved
+Accessibility and Durability of Soft Robotic Actuators
+</h3>
+<p>Single-mold method of fabricating soft robotic actuators</p>
+<p><strong><a
+href="https://www.liebertpub.com/doi/abs/10.1089/soro.2019.0133">SoRo
+2021</a></strong> | <a
+href="https://istem.illinois.edu/PDF/soro.2019.0133.pdf">Paper</a></p>
+</div>
+</div>
+<h2>
+Notes
+</h2>
+<div class="notes-description">
+<p>I’m an avid note taker. I aim for my <a
+href="notes/index.html">notes</a> page to be a public collection of
+refined course notes. Similarly, I aim for my <a
+href="literature.html">literature notes</a> page to be a collection of
+paper summaries. Testing <a href="lecture.html">lecture notes</a> and <a
+href="ideas.html">ideas</a>.</p>
+<p>This section is a play-on-words of the tagline for my site,
+<em>Robots, Vision, and Learning</em>. Here, <em>learning</em> both
+literally refers to learning and studies (hence the learning resources),
+but also <em>machine</em> learning :)</p>
+</div>

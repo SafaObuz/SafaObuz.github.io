@@ -1,5 +1,1 @@
----
-title: "About"
----
-
-Personal site of Safa Obuz
+<p>Personal site of Safa Obuz</p>
