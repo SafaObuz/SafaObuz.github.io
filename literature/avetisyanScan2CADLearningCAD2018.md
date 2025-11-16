@@ -16,7 +16,7 @@ Armen Avetisyan, Manuel Dahnert, Angela Dai, Manolis Savva, Angel X. Chang, Matt
 
 This is some sample text.
 
-This is a test link to [OShea-IntroductionConvolutionalNeural-2015](OShea-IntroductionConvolutionalNeural-2015.html)
+This is a test link to [An Introduction to Convolutional Neural Networks](OShea-IntroductionConvolutionalNeural-2015.html)
 
 - Markdown list
 - Hello
