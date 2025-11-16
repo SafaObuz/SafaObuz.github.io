@@ -22,6 +22,10 @@ Let's see if this is still an ugly link on the page.
 This is a note callout
 :::
 
+::: callout-warning
+This is a warning block, let's see how Pandoc converts it
+:::
+
 ::: column-margin
 This becomes a side note in our workflow
 :::
